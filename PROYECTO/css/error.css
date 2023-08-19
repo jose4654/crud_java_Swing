@@ -1,0 +1,93 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  min-height: 100vh;
+  background-image: linear-gradient(125deg,#369ece,#226ee0);
+}
+
+
+
+
+.container{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #343434
+}
+
+.container h1{
+  font-size: 160px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 20px;
+  background: url(../404\ Page/bg.jpg) center no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.container a{
+  text-decoration: none;
+  background: #964c41aa;
+  color: #fff;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+.container a:hover{
+  background: #e55039;
+}
+@media only screen and (max-width:385px) {
+
+  body{
+    
+    
+    background-image: linear-gradient(125deg,#84a2df,#1d2046);
+  }
+  
+  .container h1{
+ font-size: 4.375rem;
+
+
+  
+  }
+   
+  }
+  .container h1 p{
+    font-size: 4.375;
+     
+     }
+     @media only screen and (max-width:180px) {
+      body{
+    
+    
+        background-image: linear-gradient(125deg,#3348a5,#1b24a3);
+      }
+  
+      .container h1{
+     font-size: 3.125rem;
+      
+      }
+       
+      }
+      .container h2 p{
+     font-size: 0.75rem;
+         }
+     
+
+   
+     
+
+  
+    
+  
+
+
